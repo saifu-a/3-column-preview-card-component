@@ -99,7 +99,7 @@ html {
   .container {
     flex-direction: row;
     width: 70%;
-    margin: 10% auto;
+    margin: 12.5% auto;
     margin-bottom: 0;
   }
 
@@ -121,7 +121,7 @@ html {
   }
 
   .card p {
-    padding-right: 17.5%;
+    padding-right: 15%;
     padding-bottom: 0;
   }
 
