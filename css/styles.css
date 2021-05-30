@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 90%;
+  margin: 20% auto;
+  overflow: hidden;
+}
+
+.card {
+  /* height: 25rem; */
+  display: flex;
+  flex-direction: column;
+  padding: 15% 10%;
+}
+
+.card img {
+  width: 20%;
+}
+
+.card h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  padding: 10% 0;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 2;
+  padding-bottom: 10%;
+  padding-right: 15%;
+}
+
+.card button {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 10px 22.5px;
+  border-radius: 25px;
+  outline: 0;
+  background-color: hsl(0, 0%, 95%);
+  border: 3px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.card button:hover {
+  color: hsl(0, 0%, 95%);
+  border: 3px solid hsl(0, 0%, 95%);
+  background-color: transparent;
+}
+
+.card-one {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-two {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-three {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.btn-one {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-two {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-three {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  display: none;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 769px) {
+  .container {
+    flex-direction: row;
+    width: 70%;
+    margin: 10% auto;
+    margin-bottom: 0;
+  }
+
+  .card {
+    padding: 5%;
+  }
+
+  .card h1 {
+    font-size: 2.5rem;
+  }
+
+  .card img {
+    width: 25%;
+  }
+
+  .card button {
+    padding: 12.5px 32.5px;
+    font-size: 1rem;
+  }
+
+  .card p {
+    padding-right: 17.5%;
+    padding-bottom: 0;
+  }
+
+  .button__wrapper {
+    padding-top: 25%;
+  }
+}
