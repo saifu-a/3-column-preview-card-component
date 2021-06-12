@@ -99,9 +99,8 @@ html {
 @media (min-width: 769px) {
   .container {
     flex-direction: row;
-    width: 70%;
-    margin: 7.5% auto;
-    margin-bottom: 0;
+    width: 60%;
+    margin: 10% auto 0;
   }
 
   .card {
@@ -123,8 +122,7 @@ html {
   }
 
   .card p {
-    padding-right: 15%;
-    padding-bottom: 0;
+    padding-right: 23%;
   }
 
   .button__wrapper {
